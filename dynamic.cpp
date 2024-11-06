@@ -9,8 +9,7 @@ private:
 public:
     // Constructor to initialize an empty array
     ExpandableArray() : elements(nullptr), currentCapacity(0), numElements(0) {}
-
-    // Destructor to release the allocated memory
+gg
     ~ExpandableArray() {
         delete[] elements;
     }
